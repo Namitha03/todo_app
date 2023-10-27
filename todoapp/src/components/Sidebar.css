@@ -1,0 +1,27 @@
+.sidebar {
+  width: 180px;
+  height: auto;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #119090;
+  color: #fff;
+}
+
+.sidebar ul {
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.sidebar ul li:hover {
+  background-color: #d0cdcd;
+}
